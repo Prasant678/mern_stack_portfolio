@@ -1,0 +1,113 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 105px;
+}
+.navbar-main{
+    width: 100%;
+    background-color: black;
+}
+
+.navbar h3 {
+    font-size: 23px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    font-size: 17px;
+    margin-left: 80px;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-connect {
+    padding: 12px 20px;
+    border-radius: 50px;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+    font-size: 15px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    font-weight: 500;
+}
+.anchor-link-btn{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-mob-close{
+    display: none;
+}
+.nav-mob-open{
+    display: none;
+}
+
+@media (max-width:768px){
+    .navbar{
+        margin: 20px 50px;
+    }
+    .navbar h3{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 45px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 60px;
+        height: 40px;
+        width: 50px;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 250px;
+        width: 50px;
+        height: 50px;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background: #001925;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li{
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        margin-top: 25px;
+    }
+    .nav-menu li i{
+        display: none;
+    }
+}

@@ -1,0 +1,158 @@
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.project-left{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 30px;
+    margin-left: 6rem;
+}
+.project-right{
+    display: flex;
+    flex-direction: column;
+}
+h5{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 120px;
+    margin-top: 40px;
+    font-size: 23px;
+    font-weight: 400;
+}
+.project-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 105px;
+    margin-bottom: 10px;
+}
+.project-btn h3{
+    font-size: 23px;
+}
+.return{
+    padding: 12px 20px;
+    border-radius: 50px;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+    font-size: 15px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    width: 150px;
+}
+.project-view h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.project-view img{
+    height: 24rem;
+    width: 42rem;
+    border-radius: 15px;
+    transition: 0.6s ease-in-out;
+    margin-left: 10px;
+}
+.project-view img:hover{
+    transform: scale(1.03);
+}
+.description p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.description ul{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 23px;
+}
+.description li{
+    margin-bottom: 4px;
+    width: 460px;
+}
+.technology p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.technology ul{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 23px;
+}
+.technology li{
+    margin-bottom: 4px;
+    width: 460px;
+}
+.stack h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.stack p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.deployed h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.deployed p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.git-link p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.git-link .link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(74, 177, 250);
+}
+.project-link p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.project-link .link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(74, 177, 250);
+}
+
+@media (max-width: 768px){
+    .project{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin: 30px 65px;
+        align-items: start;
+    }
+    .project-view img{
+        width: 630px;
+        height: 410px;
+    }
+    .project-left{
+        margin: 0;
+    }
+    h5{
+        margin: 0px 80px;
+        margin-top: 50px;
+    }
+    .project-btn{
+        margin: 25px 60px;
+    }
+}

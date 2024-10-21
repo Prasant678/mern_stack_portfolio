@@ -1,0 +1,26 @@
+[
+{
+    "S_name": "Web Designing",
+    "S_Desc": " the process of creating a website's visual layout, aesthetics and new enviroment created"
+},
+{
+    "S_name": "Web Development",
+    "S_Desc": "the process of building, maintaining, and programming websites and web applications."
+},
+{
+    "S_name": "Full stack Development",
+    "S_Desc": "the process of designing, creating, testing, and deploying a web application or software application."
+},
+{
+    "S_name": "Frontend Development",
+    "S_Desc": "the process of designing and building the user-facing parts of a website or application."
+},
+{
+    "S_name": "UI/UX Development",
+    "S_Desc": "the process of creating a product or service that is easy to use and enjoyable for the user."
+},
+{
+    "S_name": "App Development",
+    "S_Desc": "the process of creating software applications that perform specific business functions."
+}
+]
